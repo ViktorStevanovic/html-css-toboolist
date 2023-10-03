@@ -1,0 +1,30 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+header{
+    height: 150px;
+    background-color: white;
+}
+.main-logo{
+    height: 150px;
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    margin-right: .5rem;
+}
+
+.title{
+    display: inline-block;
+    font-size: 5em;
+    line-height: 150px;
+}
