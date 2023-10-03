@@ -19,6 +19,35 @@ hr {
     height: 1px;
     background-color: lightgray;
 }
+
+.white-text{
+    color:white
+}
+
+.light-blue{
+    background-color: lightskyblue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: violet;
+}
+
+.lime {
+    background-color: limegreen;
+}
+
 .main-logo{
     height: 120px;
 }
@@ -45,9 +74,8 @@ hr {
     border-radius: 1rem;
 }
 
-.add-task{
-    color: white;
-    margin-left: 44px;
+.add-task {
+    margin-left: 45px;
     height: 40px;
     width: 120px;
     text-align: center;
@@ -56,7 +84,6 @@ hr {
     display: inline-block;
     border-radius: 6px;
     line-height: 40px;
-    background-color: lightskyblue;
 }
 
 .add-section{
@@ -71,4 +98,45 @@ hr {
     border-radius: 6px;
     line-height: 40px;
     border: 1px solid lightgray;
+}
+
+.schedule{
+    font-weight: 600;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.symbol{
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 45px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+
+}
+
+.check{
+    border-color: green;
+    color: green;
+}
+
+.cross{
+    border-color: red;
+    color: red;
+}
+
+.task-type{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
