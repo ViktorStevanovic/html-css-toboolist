@@ -9,16 +9,12 @@ body{
 }
 
 header{
-    height: 120px;
+    
     background-color: white;
+    padding: 10px 20px;
 }
 
-hr {
-    margin-top: 18px;
-    border: none;
-    height: 1px;
-    background-color: lightgray;
-}
+
 
 /*COLORS start*/
 
@@ -54,15 +50,15 @@ hr {
 
 .logo {
     display: inline-block;
-    height: 120px;
-    vertical-align: bottom;
+    height: 100%;
+    vertical-align: middle;
     margin-right: .5rem;
 }
 
 .title{
     display: inline-block;
     font-size: 4em;
-    line-height: 120px;
+    vertical-align: middle;
 }
 
 .main-container{
@@ -89,7 +85,6 @@ hr {
 .task-buttons {
     height: 40px;
     text-align: center;
-    margin-top: 20px;
     font-size: 1.2em;
     display: inline-block;
     border-radius: 6px;
@@ -110,11 +105,9 @@ hr {
     margin-right: 5px;
     margin-left: 45px;
     margin-bottom: 20px;
-    display: inline-block;
-    
+    display: inline-block;  
     text-align: center;
     border-radius: 50%;
-
 }
 
 .check{
@@ -135,6 +128,11 @@ hr {
     margin-left: 5px;
     border-radius: 15px;
     text-align: center;
+}
+
+.nav-tasks{
+    border-bottom: .2rem solid rgb(231, 231, 231);
+    padding: 15px;
 }
    
     
